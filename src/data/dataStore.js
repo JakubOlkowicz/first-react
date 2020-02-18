@@ -24,7 +24,7 @@ export const listData = {
       key: 0,
       title: 'Books',
       icon: 'book',
-      cards: [
+      card: [
         {
           key: 0,
           title: 'This Is Going to Hurt',
@@ -39,7 +39,7 @@ export const listData = {
       key: 1,
       title: 'Movies',
       icon: 'film',
-      cards: [
+      card: [
         {
           key: 0,
           title: 'Harry Potter',
@@ -54,7 +54,7 @@ export const listData = {
       key: 2,
       title: 'Games',
       icon: 'gamepad',
-      cards: [
+      card: [
         {
           key: 0,
           title: 'The Witcher',
