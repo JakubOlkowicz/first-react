@@ -1,16 +1,16 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Card.scss';
 
 class Card extends React.Component{
-    static defaultProps = {
+    static propTypes = {
       title: PropTypes.node.isRequired,
     }
     render(){
+      const {title } = this.props;
       return (
         <section className={styles.component}>
-          <h3>{this.props.title}</h3>
+          <h3>{title}</h3>
         </section>
       );
     }
