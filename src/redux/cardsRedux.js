@@ -5,7 +5,7 @@ export const getCardsForColumn = ({cards}, columnId) => cards.filter(card => car
 
 // action name creator
 const reducerName = 'card';
-const createActionName = name => `app/${reducerName}/${name}`;
+const createActionName = name => `column/${reducerName}/${name}`;
 
 // action types
 export const ADD_CARD = createActionName('ADD_CARD');
