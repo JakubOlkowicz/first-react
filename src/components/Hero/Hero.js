@@ -6,7 +6,7 @@ import styles from './Hero.scss';
 const HeroComponet = props => (
   HeroComponet.PropTypes = {
     titleText: PropTypes.node.isRequired,
-    image: PropTypes.node.isRequired,
+    image: PropTypes.node,
   },
   
   <header className={styles.component}>
