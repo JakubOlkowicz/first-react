@@ -9,7 +9,7 @@ import Icon from '../Icon/Icon';
 class Column extends React.Component {
     static propTypes = {
       title: PropTypes.node.isRequired,
-      cards: PropTypes.array,
+      cards: PropTypes.func,
       icon: PropTypes.node,
       addCard: PropTypes.func,
     }

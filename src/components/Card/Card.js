@@ -7,7 +7,7 @@ class Card extends React.Component{
       title: PropTypes.node.isRequired,
     }
     render(){
-      const {title } = this.props;
+      const {title} = this.props;
       return (
         <section className={styles.component}>
           <h3>{title}</h3>
