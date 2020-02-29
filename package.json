@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "lint": "eslint src/",
-    "server": "json-server --port 3131 --no-cors --delay 250 --watch dist/db/app.json"
+    "lint": "eslint src/"
   },
   "husky": {
     "hooks": {
@@ -39,13 +38,16 @@
     "eslint-plugin-react": "^7.18.3",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^4.2.3",
+    "id": "0.0.0",
     "json-server": "^0.16.1",
     "lint-staged": "^10.0.8",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
     "redux-devtools-extension": "^2.13.8",
     "sass-loader": "^7.1.0",
+    "short": "^2.6.0",
     "style-loader": "^0.23.1",
+    "to": "^0.2.9",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14",
