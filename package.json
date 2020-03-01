@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+    "server": "json-server --port 3131 --no-cors --delay 250 --watch src/app.json"
+
   },
   "husky": {
     "hooks": {
