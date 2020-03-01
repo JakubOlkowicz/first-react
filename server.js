@@ -3,7 +3,7 @@
 
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('src/app.json');
+const router = jsonServer.router();
 const middlewares = jsonServer.defaults({
   static: 'src',
   noCors: true,

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "lint": "eslint src/",
-    "server": "json-server --port 3131 --no-cors --delay 250 --watch src/app.json"
+    "server": "json-server --port 3131 --no-cors --delay 250 --watch server.json"
 
   },
   "husky": {
