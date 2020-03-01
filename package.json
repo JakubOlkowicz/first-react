@@ -6,8 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "lint": "eslint src/",
-    "web": "http-server dist"
-  },
+    "server": "http-server dist" },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
