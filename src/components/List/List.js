@@ -6,6 +6,8 @@ import styles from './List.scss';
 import HeroComponet from '../Hero/Hero';
 import Column from '../Column/ColumnContainer';
 import Creator from '../Creator/Creator';
+import Container from '../Container/Container';
+
 
 class List extends React.Component {
   static propTypes = {
@@ -22,7 +24,7 @@ class List extends React.Component {
   render() {
     const {title, image, description, columns, addColumn} = this.props;
     return (
-      <section className={styles.component}>
+      <Container>
         <HeroComponet 
           titleText={title}
           image={image}
@@ -38,8 +40,7 @@ class List extends React.Component {
         <div className={styles.creator}>
           <Creator text={settings.columnCreatorText} action={addColumn}/>
         </div>
-          
-      </section>
+      </Container>
     );
   } 
 }
