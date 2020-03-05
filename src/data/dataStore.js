@@ -14,6 +14,19 @@ export const settings = {
   defaultColumnIcon: 'list-alt',
 };
 
+export const faq = {
+  title: 'This is FAQ!!',
+  image: 'https://cdn.pixabay.com/photo/2016/11/21/00/47/view-1844110_1280.jpg',
+  text: 'FAQ is importent, but image is amazing',
+};
+export const info = {
+  title: 'This is Info about this page!!',
+  image: 'https://cdn.pixabay.com/photo/2016/09/19/22/46/hut-1681485_1280.jpg',
+  text: 'Info is importent, but image is amazing',
+};
+export const header = {
+  iconName: '-pied-piper-alt',
+};
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
