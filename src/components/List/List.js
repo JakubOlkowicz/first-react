@@ -3,7 +3,7 @@ import ReactHtmlParser from 'react-html-parser';
 import PropTypes from 'prop-types';
 import {settings} from '../../data/dataStore';
 import styles from './List.scss';
-import HeroComponet from '../Hero/Hero';
+import Hero from '../Hero/Hero';
 import Column from '../Column/ColumnContainer';
 import Creator from '../Creator/Creator';
 import Container from '../Container/Container';
@@ -25,7 +25,7 @@ class List extends React.Component {
     const {title, image, description, columns, addColumn} = this.props;
     return (
       <Container>
-        <HeroComponet 
+        <Hero 
           titleText={title}
           image={image}
         />

@@ -13,7 +13,16 @@ export const settings = {
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };
-
+export const list1 = {
+  title: 'This is List 1',
+  image: 'https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241_1280.jpg',
+  text: 'This is List 1, have a fun',
+};
+export const list2 = {
+  title: 'This is List 2',
+  image: 'https://cdn.pixabay.com/photo/2017/08/30/07/56/money-2696229_1280.jpg',
+  text: 'This is List 2, have a fun',
+};
 export const faq = {
   title: 'This is FAQ!!',
   image: 'https://cdn.pixabay.com/photo/2016/11/21/00/47/view-1844110_1280.jpg',
